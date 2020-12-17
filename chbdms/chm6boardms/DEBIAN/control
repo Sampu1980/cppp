@@ -1,0 +1,7 @@
+Package: chm6boardms
+Description: CHM6 Board Microservice
+Maintainer: Infinera Inc.,
+Version: 1.4.18
+Architecture: all
+Priority: required
+Section: base

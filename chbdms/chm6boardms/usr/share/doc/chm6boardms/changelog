@@ -1,0 +1,288 @@
+chm6boardms (1.4.18) UNRELEASED; urgency=medium
+
+  * Initial Release
+  
+  -- Bang Build <bangbuild@sv-debbld-22.infinera.com>  Sat, 06 Jun 2020 16:29:50 -0700  * Merge pull request #21 in CHM6/chm6_board_ms from GX-
+    889_setup_board_ms to master  * commit
+    7de40bd09cd0c4ea371ca8f690a96c0e761d1689:   GX-889 update version
+    and readme   GX-889 added test scripts   GX-889 enable manager layer
+    for hw; added Readme.md
+  * Merge pull request #21 in CHM6/chm6_board_ms from GX-
+    889_setup_board_ms to master  * commit
+    7de40bd09cd0c4ea371ca8f690a96c0e761d1689:   GX-889 update version
+    and readme   GX-889 added test scripts   GX-889 enable manager layer
+    for hw; added Readme.md
+  * Merge pull request #22 in CHM6/chm6_board_ms from GX-
+    889_setup_board_ms to master  * commit
+    857a837a806fa1ead7b9870c1063f0ecc43f4d56:   GX-889 remove local
+    telnet session in sim debug command
+  * Merge pull request #22 in CHM6/chm6_board_ms from GX-
+    889_setup_board_ms to master  * commit
+    857a837a806fa1ead7b9870c1063f0ecc43f4d56:   GX-889 remove local
+    telnet session in sim debug command
+  * Merge pull request #23 in CHM6/chm6_board_ms from CHM6-
+    90_default_mode_hw to master  * commit
+    d8ce4da7304ffd617d0cdec94b948bdefbea0932:   CHM6-90 fixed chassis ID
+    which can be up to 255   CHM6-90 change default mode to HW   CHM6-90
+    fix board AID and change default run mode to HW
+  * Merge pull request #23 in CHM6/chm6_board_ms from CHM6-
+    90_default_mode_hw to master  * commit
+    d8ce4da7304ffd617d0cdec94b948bdefbea0932:   CHM6-90 fixed chassis ID
+    which can be up to 255   CHM6-90 change default mode to HW   CHM6-90
+    fix board AID and change default run mode to HW
+  * Merge pull request #27 in CHM6/chm6_board_ms from rarja-GX-3399 to
+    master  * commit d4163dd79670967d516de9933299892fd3499f08:   GX-3399
+    Fix issues on x86 build.Unit tested on HW and as sim and eval.
+    Version.txt updated to V0.2.9
+  * Merge pull request #27 in CHM6/chm6_board_ms from rarja-GX-3399 to
+    master  * commit d4163dd79670967d516de9933299892fd3499f08:   GX-3399
+    Fix issues on x86 build.Unit tested on HW and as sim and eval.
+    Version.txt updated to V0.2.9
+  * Merge pull request #28 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    79c02a500a1d006aaec1351fecfa847a6eb9091a:   GX-3443 fix fault name
+    strings   GX-3443 fix fault name strings   GX-3443 fix fault name
+    string
+  * Merge pull request #28 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    79c02a500a1d006aaec1351fecfa847a6eb9091a:   GX-3443 fix fault name
+    strings   GX-3443 fix fault name strings   GX-3443 fix fault name
+    string
+  * Merge pull request #29 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    fbb385ee9fc35bec8d7443656ec76a96678a3107:   GX-3443 change env
+    chm6_boardinfo to BoardInfo   GX-3443 change env chm6_boardinfo to
+    BoardInfo   GX-3443 update env chm6_boardinfo to BoardInfo   GX-3443
+    update env chm6_boardinfo to BoardInfo   GX-3443 update readme
+  * Merge pull request #29 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    fbb385ee9fc35bec8d7443656ec76a96678a3107:   GX-3443 change env
+    chm6_boardinfo to BoardInfo   GX-3443 change env chm6_boardinfo to
+    BoardInfo   GX-3443 update env chm6_boardinfo to BoardInfo   GX-3443
+    update env chm6_boardinfo to BoardInfo   GX-3443 update readme
+  * Merge pull request #30 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    0f29dbe926982021dd0532cb86d05f96adb61f83:   GX-3443 fix fault names
+    and fault LED state for sim   GX-3443 fix fault names
+  * Merge pull request #30 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    0f29dbe926982021dd0532cb86d05f96adb61f83:   GX-3443 fix fault names
+    and fault LED state for sim   GX-3443 fix fault names
+  * Merge pull request #31 in CHM6/chm6_board_ms from gvenkat-GX-4156 to
+    master  * commit 5839de68186bda399a6b3e3050a36c88d658854d:   GX-4156
+    Updated to new docker path
+  * Merge pull request #31 in CHM6/chm6_board_ms from gvenkat-GX-4156 to
+    master  * commit 5839de68186bda399a6b3e3050a36c88d658854d:   GX-4156
+    Updated to new docker path
+  * Merge pull request #32 in CHM6/chm6_board_ms from GX-
+    4316_integration to master  * commit
+    f01924b4b29bbe894382bbafd70f31bf574b2c70:   GX-4316 fix fault names
+    GX-4316 fix fault name strings
+  * Merge pull request #32 in CHM6/chm6_board_ms from GX-
+    4316_integration to master  * commit
+    f01924b4b29bbe894382bbafd70f31bf574b2c70:   GX-4316 fix fault names
+    GX-4316 fix fault name strings
+  * Merge pull request #34 in CHM6/chm6_board_ms from GX-4204_logging to
+    master  * commit 202db0281dcf88a5b9a150b1bd4c164ec53f9d31:   GX-4204
+    add logging   GX-4204 add log   GX-4204 add log   GX-4204 test
+    logging
+  * Merge pull request #34 in CHM6/chm6_board_ms from GX-4204_logging to
+    master  * commit 202db0281dcf88a5b9a150b1bd4c164ec53f9d31:   GX-4204
+    add logging   GX-4204 add log   GX-4204 add log   GX-4204 test
+    logging
+  * Merge pull request #39 in CHM6/chm6_board_ms from GX-4556_pm_stream
+    to master  * commit 1ec6a8d4dc2f649dfab07bff4a63bef8e14cf2f4:   GX-
+    4556 added streaming pm   GX-4556 use streaming API for PM
+  * Merge pull request #39 in CHM6/chm6_board_ms from GX-4556_pm_stream
+    to master  * commit 1ec6a8d4dc2f649dfab07bff4a63bef8e14cf2f4:   GX-
+    4556 added streaming pm   GX-4556 use streaming API for PM
+  * Merge pull request #40 in CHM6/chm6_board_ms from ecina-GX-4401 to
+    master  * commit 0efadbe108d06d8237b3ff66ca24fa0bd18b296a:   ecina-
+    GX-4401 version.txt   ecina-GX-4401 increasing board init delay time
+    workaround for updating redis to 5 seconds   ecina-GX-4401 onResync
+    callback updated for latest ds_apps_adapter   ecina-GX-4401 Test and
+    debugged   ecina-GX-4401 Moving board_init_manager. BoardMs
+    receiving callbacks   ecina-GX-4401 base state fix   ecina-GX-4401
+    BoardInitMs compiling now with these changes   ecina-GX-4401
+  * Merge pull request #40 in CHM6/chm6_board_ms from ecina-GX-4401 to
+    master  * commit 0efadbe108d06d8237b3ff66ca24fa0bd18b296a:   ecina-
+    GX-4401 version.txt   ecina-GX-4401 increasing board init delay time
+    workaround for updating redis to 5 seconds   ecina-GX-4401 onResync
+    callback updated for latest ds_apps_adapter   ecina-GX-4401 Test and
+    debugged   ecina-GX-4401 Moving board_init_manager. BoardMs
+    receiving callbacks   ecina-GX-4401 base state fix   ecina-GX-4401
+    BoardInitMs compiling now with these changes   ecina-GX-4401
+  * Merge pull request #41 in CHM6/chm6_board_ms from ecina-GX-4401 to
+    master  * commit 30286bd01e63299634116e066fef2d231e43b2a9:   ecina-
+    GX-4401 Increasing delay to board init ms
+  * Merge pull request #41 in CHM6/chm6_board_ms from ecina-GX-4401 to
+    master  * commit 30286bd01e63299634116e066fef2d231e43b2a9:   ecina-
+    GX-4401 Increasing delay to board init ms
+  * Merge pull request #42 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    e9ba578701ca6f41c537708d466ad64e80a9236d:   GX-3443 added LED
+    control   GX-3443 added LED control in manager layer   GX-3443 Added
+    LED control config in manager layer   GX-3443 added LED control APIs
+    in board manager   GX-3443 added LED controls in adatper   GX-3443
+    added LED control APIs in driver and driver CLI   GX-3443 added defs
+    for LED   GX-3443 added QSFP and LINE LED configuring APIs
+  * Merge pull request #42 in CHM6/chm6_board_ms from GX-
+    3443_LED_control to master  * commit
+    e9ba578701ca6f41c537708d466ad64e80a9236d:   GX-3443 added LED
+    control   GX-3443 added LED control in manager layer   GX-3443 Added
+    LED control config in manager layer   GX-3443 added LED control APIs
+    in board manager   GX-3443 added LED controls in adatper   GX-3443
+    added LED control APIs in driver and driver CLI   GX-3443 added defs
+    for LED   GX-3443 added QSFP and LINE LED configuring APIs
+  * Merge pull request #43 in CHM6/chm6_board_ms from GX-4528_reboot to
+    master  * commit 3a9db9f2ddb583285802432c64ec414c25f5d910:   GX-4528
+    added board reboot CLI   GX-4528 added CLI commands to reboot board
+    GX-3443 added LED control
+  * Merge pull request #43 in CHM6/chm6_board_ms from GX-4528_reboot to
+    master  * commit 3a9db9f2ddb583285802432c64ec414c25f5d910:   GX-4528
+    added board reboot CLI   GX-4528 added CLI commands to reboot board
+    GX-3443 added LED control
+  * Merge pull request #44 in CHM6/chm6_board_ms from ecina-GX-4529 to
+    master  * commit 8125342a34c5e3f758fed5a6e7fe067af06c1428:   ecina-
+    GX-4529 Cleanup and add few more log entries   ecina-GX-4529 Create
+    Gecko StubRa and integrate GeckoAccess library. Testing complete on
+    HW   ecina-GX-4529 Compiling and linking with gecko intf library.
+    Checking POR bit and handling appropriately
+  * Merge pull request #44 in CHM6/chm6_board_ms from ecina-GX-4529 to
+    master  * commit 8125342a34c5e3f758fed5a6e7fe067af06c1428:   ecina-
+    GX-4529 Cleanup and add few more log entries   ecina-GX-4529 Create
+    Gecko StubRa and integrate GeckoAccess library. Testing complete on
+    HW   ecina-GX-4529 Compiling and linking with gecko intf library.
+    Checking POR bit and handling appropriately
+  * Merge pull request #45 in CHM6/chm6_board_ms from jmurabbi-GX-4524-
+    CliTelnet to master  * commit
+    4ead73b1ec81391aed2831c5f4e0cca8a28510e1:   GX-4524 Changing CLI
+    Telnet port to avoid conflict with other microservices
+  * Merge pull request #45 in CHM6/chm6_board_ms from jmurabbi-GX-4524-
+    CliTelnet to master  * commit
+    4ead73b1ec81391aed2831c5f4e0cca8a28510e1:   GX-4524 Changing CLI
+    Telnet port to avoid conflict with other microservices
+  * Merge pull request #46 in CHM6/chm6_board_ms from ecina-GX-4714 to
+    master  * commit 05f0e5b2526e8755ef69d811b095608c3e090cef:   ecina-
+    GX-4714 dummy change to retrigger build   ecina-GX-4714 dummy change
+    to retrigger build   ecina-GX-4714 version number   ecina-GX-4714
+    updating version.txt   ecina-GX-4714 updating version.txt   ecina-GX-
+    4714 potential fix. compiles and tested locally
+  * Merge pull request #46 in CHM6/chm6_board_ms from ecina-GX-4714 to
+    master  * commit 05f0e5b2526e8755ef69d811b095608c3e090cef:   ecina-
+    GX-4714 dummy change to retrigger build   ecina-GX-4714 dummy change
+    to retrigger build   ecina-GX-4714 version number   ecina-GX-4714
+    updating version.txt   ecina-GX-4714 updating version.txt   ecina-GX-
+    4714 potential fix. compiles and tested locally
+  * Merge pull request #47 in CHM6/chm6_board_ms from GX-
+    5028_memory_leak_fix to master  * commit
+    d79ba65a64cee1bd89c03f670b2ff4efe984f2ca:   GX-5028 pick memory
+    leank fix from ds_apps_adapter   GX-5028 pick memory leank fix from
+    ds_apps_adapter
+  * Merge pull request #47 in CHM6/chm6_board_ms from GX-
+    5028_memory_leak_fix to master  * commit
+    d79ba65a64cee1bd89c03f670b2ff4efe984f2ca:   GX-5028 pick memory
+    leank fix from ds_apps_adapter   GX-5028 pick memory leank fix from
+    ds_apps_adapter
+  * Merge pull request #49 in CHM6/chm6_board_ms from GX-4594_LED to
+    master  * commit a74793c748f982f832db2347b91732beb1a706f4:   GX-4594
+    fix LED control   GX-4594 fix line_1 los LED status   GX-4594 added
+    LED control   GX-4594 updated init process per latest FPGA fix   GX-
+    4528 fix init process
+  * Merge pull request #49 in CHM6/chm6_board_ms from GX-4594_LED to
+    master  * commit a74793c748f982f832db2347b91732beb1a706f4:   GX-4594
+    fix LED control   GX-4594 fix line_1 los LED status   GX-4594 added
+    LED control   GX-4594 updated init process per latest FPGA fix   GX-
+    4528 fix init process
+  * Merge pull request #53 in CHM6/chm6_board_ms from GX-5193_reboot to
+    master  * commit 0e08ffb99cd42e51e6dd6339ecf2eccf8876b16a:   GX-5193
+    update version to trigger image build for reboot fix
+  * Merge pull request #53 in CHM6/chm6_board_ms from GX-5193_reboot to
+    master  * commit 0e08ffb99cd42e51e6dd6339ecf2eccf8876b16a:   GX-5193
+    update version to trigger image build for reboot fix
+  * Merge pull request #55 in CHM6/chm6_board_ms from bkwok-GX-5550 to
+    master  * commit 3ecbf251b8a0f4c4cee15a44e33e030ef0dff73d:   GX-
+    5550: D7.1:Major:Dataplane: CHM6 disk space enhancement: Board MS
+    contains debug and SIM images GX-5549: D7.1:Major:SystemService:
+    CHM6 disk space enhancement: Strip MS binaries   GX-5550:
+    D7.1:Major:Dataplane: CHM6 disk space enhancement: Board MS contains
+    debug and SIM images GX-5549: D7.1:Major:SystemService: CHM6 disk
+    space enhancement: Strip MS binaries
+  * Merge pull request #55 in CHM6/chm6_board_ms from bkwok-GX-5550 to
+    master  * commit 3ecbf251b8a0f4c4cee15a44e33e030ef0dff73d:   GX-
+    5550: D7.1:Major:Dataplane: CHM6 disk space enhancement: Board MS
+    contains debug and SIM images GX-5549: D7.1:Major:SystemService:
+    CHM6 disk space enhancement: Strip MS binaries   GX-5550:
+    D7.1:Major:Dataplane: CHM6 disk space enhancement: Board MS contains
+    debug and SIM images GX-5549: D7.1:Major:SystemService: CHM6 disk
+    space enhancement: Strip MS binaries
+  * Merge pull request #56 in CHM6/chm6_board_ms from GX-4076_LED_init
+    to master  * commit 224ff4f61ede8471f46d1c7432ad88076b080b5e:   GX-
+    4076 LED init after reboot;clean out sim and debug build;use logging
+    V1.0.3   GX-4076 set init states of LED
+  * Merge pull request #56 in CHM6/chm6_board_ms from GX-4076_LED_init
+    to master  * commit 224ff4f61ede8471f46d1c7432ad88076b080b5e:   GX-
+    4076 LED init after reboot;clean out sim and debug build;use logging
+    V1.0.3   GX-4076 set init states of LED
+  * Merge pull request #57 in CHM6/chm6_board_ms from bkwok-GX-5549 to
+    master  * commit 69c6af750e586e1fa5760473963b0a68b575dc33:   GX-
+    5549: D7.1:Major:SystemService: CHM6 disk space enhancement: Strip
+    MS binaries
+  * Merge pull request #57 in CHM6/chm6_board_ms from bkwok-GX-5549 to
+    master  * commit 69c6af750e586e1fa5760473963b0a68b575dc33:   GX-
+    5549: D7.1:Major:SystemService: CHM6 disk space enhancement: Strip
+    MS binaries
+  * Merge pull request #58 in CHM6/chm6_board_ms from ecina-GX-5187 to
+    master  * commit 6e59da9d857ea40996125c783acc9a61e9022d2b:   ecina-
+    GX-5187 fix board_adapter swVer init for upgradeable devices   ecina-
+    GX-5187 cleanup and retest   ecina-GX-5187 fix debug command   ecina-
+    GX-5187 versioning support. Unit tested on dev sim and hw   ecina-GX-
+    4714
+  * Merge pull request #58 in CHM6/chm6_board_ms from ecina-GX-5187 to
+    master  * commit 6e59da9d857ea40996125c783acc9a61e9022d2b:   ecina-
+    GX-5187 fix board_adapter swVer init for upgradeable devices   ecina-
+    GX-5187 cleanup and retest   ecina-GX-5187 fix debug command   ecina-
+    GX-5187 versioning support. Unit tested on dev sim and hw   ecina-GX-
+    4714
+  * Merge pull request #60 in CHM6/chm6_board_ms from GX-5458_tom_LED to
+    master  * commit 729a704d85d1814f13e338c69d04c2549e313278:   GX-5458
+    added port LED support and changed line LED to use map   GX-5458
+    added port LED support and changed line LED to use map   GX-5458
+    added handle LED config in manager layer
+  * Merge pull request #60 in CHM6/chm6_board_ms from GX-5458_tom_LED to
+    master  * commit 729a704d85d1814f13e338c69d04c2549e313278:   GX-5458
+    added port LED support and changed line LED to use map   GX-5458
+    added port LED support and changed line LED to use map   GX-5458
+    added handle LED config in manager layer
+  * Merge pull request #61 in CHM6/chm6_board_ms from dlad-GX-5650 to
+    master  * commit 95e71b034213e33f0cbdb22b4041e5b3074089d2:   GX-5650
+    modified:   src/manager/board_config_handler.cpp  modified:
+    src/manager/board_manager.cpp  modified:   version.txt
+  * Merge pull request #61 in CHM6/chm6_board_ms from dlad-GX-5650 to
+    master  * commit 95e71b034213e33f0cbdb22b4041e5b3074089d2:   GX-5650
+    modified:   src/manager/board_config_handler.cpp  modified:
+    src/manager/board_manager.cpp  modified:   version.txt
+  * Merge pull request #62 in CHM6/chm6_board_ms from GX-4076_init_LED
+    to master  * commit 1c9f58651d47296288d307d49be60fc7b812987e:   GX-
+    4076 init LED for cold and warm boot
+  * Merge pull request #62 in CHM6/chm6_board_ms from GX-4076_init_LED
+    to master  * commit 1c9f58651d47296288d307d49be60fc7b812987e:   GX-
+    4076 init LED for cold and warm boot
+  * Merge pull request #63 in CHM6/chm6_board_ms from ecina-GX-4076 to
+    master  * commit 0e00a1b53b789e0c0b1821edb4ff53a09b20c35b:   ecina-
+    GX-4076 version.txt   ecina-GX-4076 dont create or use RAs if its
+    not Hw with Mezz
+  * Merge pull request #63 in CHM6/chm6_board_ms from ecina-GX-4076 to
+    master  * commit 0e00a1b53b789e0c0b1821edb4ff53a09b20c35b:   ecina-
+    GX-4076 version.txt   ecina-GX-4076 dont create or use RAs if its
+    not Hw with Mezz
+  * Merge pull request #64 in CHM6/chm6_board_ms from GX-4076_init_LED
+    to master  * commit 3aa3b6f3cfd3551869d17a3b6df11feb1f1188d6:   GX-
+    4076 Added port and line LED supports for sim   GX-4076 Added port
+    and line LED supports for sim   GX-4076 cleanup logs
+  * Merge pull request #64 in CHM6/chm6_board_ms from GX-4076_init_LED
+    to master  * commit 3aa3b6f3cfd3551869d17a3b6df11feb1f1188d6:   GX-
+    4076 Added port and line LED supports for sim   GX-4076 Added port
+    and line LED supports for sim   GX-4076 cleanup logs
+
+ -- Bang Build <bangbuild@sv-debbld-22.infinera.com>  Wed, 05 Aug 2020 19:05:52 -0700

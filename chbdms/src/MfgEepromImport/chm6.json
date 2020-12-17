@@ -1,0 +1,96 @@
+{
+    "EepromHdr":
+    {
+        "VendorInfo": "INFINERA",
+        "Version": 1,
+        "EepromSize": 256,
+        "DeviceType": 6,
+        "DeviceModel": 1,
+        "MinorNo": 0,
+        "TlvStartOffset": 44,
+        "TlvEndOffset": 0,
+        "BSA": ["FF","FF","FF","FF","FF","FF","FF","FF",
+                "FF","FF","FF","FF","FF","FF","FF","FF",
+                "FF","FF","FF","FF","FF","FF","FF","FF",
+                "FF","FF","FF","FF","FF","FF","FF","FF"]
+    },
+    "EepromTlvArea":
+    {
+        "PonTlv":
+        {
+            "Pon":"CHM6-C6"
+        },
+        "DramSizeTlv":
+        {
+            "Size": 6
+        },
+        "BootFlashSizeTlv":
+        {
+            "Size": 7
+        },
+        "FdrFlashSizeTlv":
+        {
+            "Size": 0
+        },
+        "FruWidthTlv":
+        {
+            "Width": 0
+        },
+        "MacBaseTlv":
+        {
+            "BaseMac": ["00","0b","f8","72","70","82"]
+        },
+        "MacNumTlv":
+        {
+            "MacNo": 2
+        },
+        "CleiCodeTlv":
+        {
+            "CleiCode": "NANANANANA"
+        },
+        "FinalAssPartNoTlv":
+        {
+            "FinalAssPartNo": "NANANANANANA"
+        },
+        "MfgFinalAssRevTlv":
+        {
+            "FinalRev": "000"
+        },
+        "FinalAssSerNoTlv":
+        {
+            "FinalAssSerNo": "PA3320080094"
+        },
+        "ECITlv":
+        {
+            "ECI": 0
+        },
+        "DtrBoardCountTlv":
+        {
+            "Count": 2
+        },
+        "DtrBoardSnListTlv":
+        {
+            "SnList":
+            [
+                {
+                    "SerialNo": "PA0123456789"
+                },
+                {
+                    "SerialNo": "PA0123456789"
+                }
+            ]
+        },
+        "DtrBoardPnListTlv":
+        {
+            "PnList":
+            [
+                {
+                    "PartNo": "NANANANANANA"
+                },
+                {
+                    "PartNo": "NANANANANANA"
+                }
+            ]
+        }
+    }
+}

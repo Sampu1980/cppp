@@ -1,0 +1,18 @@
+pipeline_template: templates/general/Jenkinsfile
+microservice: yes
+dockerdir: chm6
+test:
+  targetname: chm6_board_ms_test
+dev:
+  targetname: chm6_board_ms_dev
+runtime:
+  x86: 
+    targetname: chm6_board_ms_x86
+  arm64:
+    targetname: chm6_board_ms_arm64
+sign:
+  x86: 
+    targetname: chm6_board_ms_x86_signed
+  arm64:
+    targetname: chm6_board_ms_arm64_signed    
+
