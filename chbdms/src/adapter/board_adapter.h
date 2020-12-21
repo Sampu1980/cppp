@@ -1,3 +1,4 @@
+#private comment
 /*
  * BoardAdapter.h
  *
