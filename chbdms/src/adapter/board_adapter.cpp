@@ -38,6 +38,11 @@ BoardAdapter::~BoardAdapter()
 
 }
 
+char check(const uint8 *hash_stage2) {
+  ....
+  return memcmp(hash_stage2, hash_stage2_reassured, SHA1_HASH_SIZE);
+}
+
 
 bool BmpLoader::loadBmp(PxFileHandle f)
 {
