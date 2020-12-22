@@ -38,6 +38,7 @@ BoardAdapter::~BoardAdapter()
 
 }
 
+
 bool BmpLoader::loadBmp(PxFileHandle f)
 {
   ....
@@ -47,6 +48,7 @@ bool BmpLoader::loadBmp(PxFileHandle f)
   {
     num = fread(line, 1, static_cast<size_t>(lineLen), f);
     if (num != static_cast<size_t>(lineLen)) { fclose(f); return false; }
+    strcpy(a,b);
     ....
   }
   free(line);
