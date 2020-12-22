@@ -65,6 +65,7 @@ bool BmpLoader::loadBmp(PxFileHandle f)
 void BoardAdapter::SetSlotId(uint32 slotId)
 {
     INFN_LOG(SeverityLevel::info) << "BoardAdapter::SetSlotId() is called !!!"
+    INFN_LOG(SeverityLevel::info) << "BoardAdapter::SetSlotId() is called !!!"
          << "slotId: "  << slotId;
 }
 
