@@ -38,6 +38,21 @@ BoardAdapter::~BoardAdapter()
 
 }
 
+bool BmpLoader::loadBmp(PxFileHandle f)
+{
+  ....
+  int lineLen = ....;
+  unsigned char* line = static_cast<unsigned char*>(malloc(lineLen));
+  for(int i = info.Height-1; i >= 0; i--)
+  {
+    num = fread(line, 1, static_cast<size_t>(lineLen), f);
+    if (num != static_cast<size_t>(lineLen)) { fclose(f); return false; }
+    ....
+  }
+  free(line);
+  return true;
+}
+
 void BoardAdapter::SetSlotId(uint32 slotId)
 {
     INFN_LOG(SeverityLevel::info) << "BoardAdapter::SetSlotId() is called !!!"

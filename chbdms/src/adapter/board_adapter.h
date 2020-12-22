@@ -1,8 +1,6 @@
 #private comment
 #inside branch
 #inside branch
-#inside branch
-#inside branch
 /*
  * BoardAdapter.h
  *
